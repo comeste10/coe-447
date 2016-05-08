@@ -1,0 +1,12 @@
+Question 1: What is the address of the byte with value 0x19?
+
+	It is located in the left most byte of the word with address 0x10010000 (byte #3).
+
+Question 2: What is now the address of the byte with value 0x19?
+
+	It is now located in the right most byte of the word with address 0x10010000 (byte #0).
+
+Question 3: Is the simulator little endian or big endian? How can you tell?
+	
+	The simulator is little endian. I can tell because it addresses the bytes in
+	reverse order when a number is loaded in byte instead of as a single word.
